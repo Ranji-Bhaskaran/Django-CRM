@@ -31,7 +31,7 @@
 			<td>{{ record.state }}</td>
 			<td>{{ record.zipcode }}</td>
 			<td>{{ record.created_at }}</td>
-			{% comment %} <td><a href="{% url 'record' record.id %}">{{ record.id }}</a></td> {% endcomment %}
+			<td><a href="{% url 'record' record.id %}">{{ record.id }}</a></td>
 		</tr>
 	{% endfor %}
 
